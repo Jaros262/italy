@@ -1,0 +1,29 @@
+.nadpis h2 {
+    font-size: 22px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 12px;
+    position: relative;
+}
+
+.podnadpis {
+    font-size: 20px;
+    color: gray;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.prostyText{
+    font-size: 15px;
+    color: black;
+}
+
+.nadpis {
+    height: 50px;
+    background-color: gray; 
+}
+
+.italy_map {
+    width: 100%;
+    height: 100%;
+}
