@@ -72,8 +72,13 @@
     font-size: 12px;
 }
 
-#tabulka1 {
+#tabulka {
     width: 100%;
+}
+
+.procenta {
+    background-color: red;
+    width: 86%;
 }
 
 footer {
