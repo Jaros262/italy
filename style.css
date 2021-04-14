@@ -1,21 +1,3 @@
-.border-top {
-    text-align: center;
-}
-
-.text-top{
-    font-size: 40px;
-    position: absolute;
-    top: 8%;
-    left: 50%;
-}
-
-.subtext-top{
-    font-size: 20px;
-    position: absolute;
-    top: 13%;
-    left: 47%;
-}
-
 .nadpis {
     height: 50px;
     background-color: green; 
@@ -79,31 +61,4 @@
 .procenta {
     background-color: red;
     width: 86%;
-}
-
-footer {
-    width: 100%;
-    height: 30%;
-    
-}
-
-#autor {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-right: 40px;
-}
-
-#autor h2 {
-    font-size: 15px;
-}
-
-#zdroj {
-    padding-left: 40px;
-}
-
-.botka {
-    width: 100%;
-    height: 60px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
