@@ -1,8 +1,3 @@
-.nadpis {
-    height: 50px;
-    background-color: green; 
-}
-
 .historie {
     height: 50px;
     background-color: green; 
@@ -24,18 +19,11 @@
     position: relative;   
 }
 
-
 .podnadpis {
     font-size: 20px;
     color: gray;
     margin-top: 12px;
     margin-bottom: 12px;
-}
-
-.prostyText{
-    font-size: 15px;
-    color: black;
-    text-align: left;
 }
 
 .poznamka{

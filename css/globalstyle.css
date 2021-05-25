@@ -16,6 +16,17 @@ header {
     left: 47%;
 }
 
+.nadpis {
+    height: 50px;
+    background-color: green; 
+}
+
+.prostyText{
+    font-size: 15px;
+    color: black;
+    text-align: left;
+}
+
 footer {
     width: 100%;
     height: 30%;
