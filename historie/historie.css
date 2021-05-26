@@ -1,3 +1,7 @@
 .odkazy {
     color:darkgreen;
 }
+
+.active {
+    background-color: blue;
+}
