@@ -6,7 +6,7 @@ $(document).ready(function(){
     $("#udalostiText5").hide();
     $("#udalostiText6").hide();
 
-    $("#udalosti1").mouseover(function(){
+    $("#udalosti11").mouseover(function(){
         $("#udalostiText1").slideDown(1000);
         $("#udalostiText2").slideUp();
         $("#udalostiText3").slideUp();
@@ -21,7 +21,7 @@ $(document).ready(function(){
         $("#udalosti6").removeClass("bg-secondary text-white");
     });
 
-    $("#udalosti2").mouseover(function(){
+    $("#udalosti22").mouseover(function(){
         $("#udalostiText1").slideUp();
         $("#udalostiText2").slideDown(1000);
         $("#udalostiText3").slideUp();
@@ -36,7 +36,7 @@ $(document).ready(function(){
         $("#udalosti6").removeClass("bg-secondary text-white");
     });
 
-    $("#udalosti3").mouseover(function(){
+    $("#udalosti33").mouseover(function(){
         $("#udalostiText1").slideUp();
         $("#udalostiText2").slideUp();
         $("#udalostiText3").slideDown(1000);
@@ -51,7 +51,7 @@ $(document).ready(function(){
         $("#udalosti6").removeClass("bg-secondary text-white");
     });
 
-    $("#udalosti4").mouseover(function(){
+    $("#udalosti44").mouseover(function(){
         $("#udalostiText1").slideUp();
         $("#udalostiText2").slideUp();
         $("#udalostiText3").slideUp();
@@ -66,7 +66,7 @@ $(document).ready(function(){
         $("#udalosti6").removeClass("bg-secondary text-white");
     });
 
-    $("#udalosti5").mouseover(function(){
+    $("#udalosti55").mouseover(function(){
         $("#udalostiText1").slideUp();
         $("#udalostiText2").slideUp();
         $("#udalostiText3").slideUp();
@@ -81,7 +81,7 @@ $(document).ready(function(){
         $("#udalosti6").removeClass("bg-secondary text-white");
     });
 
-    $("#udalosti6").mouseover(function(){
+    $("#udalosti66").mouseover(function(){
         $("#udalostiText1").slideUp();
         $("#udalostiText2").slideUp();
         $("#udalostiText3").slideUp();
@@ -99,6 +99,6 @@ $(document).ready(function(){
     $("#p1").click(function(){
         $("#pT1").fadeIn(1000);
         //$("#udalosti5").removeClass("bg-secondary text-white");
-        $("#p1").addClass("active");
+        $("#p1").addClass("active1");
     });
   });
