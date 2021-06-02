@@ -99,8 +99,9 @@ $(document).ready(function(){
     $("#pT1").hide();
     $(".jmena tr").on("click", function(){
         //$("#pT1").fadeIn(1000);
-        $(this).addClass(act);
         $(".jmena tr").removeClass(act);
+        $(this).addClass(act);
+        
     });
     $(".jmena tr").on("mouseover", function(){
             $(this).addClass("bg-success");
