@@ -96,9 +96,14 @@ $(document).ready(function(){
         $("#udalosti6").addClass("bg-secondary text-white");
     });
     $("#pT1").hide();
-    $("#p1").click(function(){
+    /*$("#p1").click(function(){
         $("#pT1").fadeIn(1000);
         //$("#udalosti5").removeClass("bg-secondary text-white");
         $("#p1").addClass("active1");
-    });
+    });*/
+    $(".jmena tr").on("mouseover", function(){
+        $(this).addClass("bg-success");
+        //$(this).removeClass("bg-success");
+        console.log(this);
+    })
   });
