@@ -1,25 +1,13 @@
 const act = "active1";
 $(document).ready(function(){
-    $("#udalostiText1").hide();
-    $("#udalostiText2").hide();
-    $("#udalostiText3").hide();
-    $("#udalostiText4").hide();
-    $("#udalostiText5").hide();
-    $("#udalostiText6").hide();
+    $(".udalostiText").hide();
 
-    $("#udalosti11").mouseover(function(){
-        $("#udalostiText1").slideDown(1000);
-        $("#udalostiText2").slideUp();
-        $("#udalostiText3").slideUp();
-        $("#udalostiText4").slideUp();
-        $("#udalostiText5").slideUp();
-        $("#udalostiText6").slideUp();
-        $("#udalosti1").addClass("bg-secondary text-white");
-        $("#udalosti2").removeClass("bg-secondary text-white");
-        $("#udalosti3").removeClass("bg-secondary text-white");
-        $("#udalosti4").removeClass("bg-secondary text-white");
-        $("#udalosti5").removeClass("bg-secondary text-white");
-        $("#udalosti6").removeClass("bg-secondary text-white");
+
+    $(".udalosti tr").on("mouseover", function(){
+        $(".udalostiText").slideUp();
+        $(".tr udalostiText").slideDown(1000);
+        $(this).addClass("bg-secondary text-white");
+        $(".udalosti td").removeClass("bg-secondary text-white");
     });
 
     $("#udalosti22").mouseover(function(){
