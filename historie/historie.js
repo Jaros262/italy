@@ -110,7 +110,7 @@ $(".event-name i, .event-name a").on("mouseover", function(){
     $(this).parent().next().show(500);
 }); 
 
-persons.forEach((event)=>{
+persons.forEach((persons)=>{
     $("#personsInfo").append(`
         <div class="col-4">
             <table class="table jmena">
