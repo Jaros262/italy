@@ -1,11 +1,24 @@
-.odkazy {
-    color:darkgreen;
-}
-
 .active1 {
     background-color: darkgreen;
 }
 
 .jmena {
     background-color: rgb(53, 189, 53);
+}
+
+.udalosti a {
+    font-weight: bold;
+    color: green;
+    font-size: 1.2em;
+}
+
+.udalosti .event-year {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.udalosti .event-evaluation {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
 }
