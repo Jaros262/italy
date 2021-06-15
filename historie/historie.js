@@ -31,31 +31,31 @@ const events = [{
 ];
 const persons = [{
     "date":"995",
-    "name":"▼ Založení říma",
+    "id":"Julius Cesar",
     "detail":" Podle pověsti byl Řím založen 21. dubna 753 př. n. l. v ústí řeky Tibery v oblasti zvané Latium [lácium] záhadnými Etrusky. Tuto pověst uvádí jako první římský historik Varro, který žil v 1. století př. n. l.Aeneas, syn dardanského krále Anchíse a bohyně lásky Venuše, patřil k nejstatečnějším obráncům Tróje. Unikl z hořícího města spolu se svým otcem Anchisem a synem Askaniem. Podle Diova příkazu si měl nový domov hledat v Itálii. Po sedmileté dobrodružné plavbě vplul do ústí Tibery a založil tam město Lavinium, které nazval podle své manželky Lavinie, dcery místního krále Latina. Aeneův syn Ascanius, zvaný též Iulus (od něj odvozoval svůj původ rod Iuliů, z nějž pocházel Caesar), založil pak město nové, Alba Longu, přímého předchůdce Říma. Dvanáctým nástupcem Askania byl král Prokas, který měl dva syny, staršího Numitora a mladšího Amulia. Amulius po smrti svého otce sesadil z trůnu svého staršího bratra Numitora, dal popravit jeho syny a dceru Rheu Silvii přinutil stát se kněžkou bohyně Vesty. Rhea Silvia sice jako kněžka slíbila věčné panenství, podlehla však bohu války Martovi a porodila mu dvojčata Romula a Rema.",
     "url":"https://cs.wikipedia.org/wiki/Vyvra%C5%BEd%C4%9Bn%C3%AD_Slavn%C3%ADkovc%C5%AF"
 },
 {
     "date":"996",
-    "name":"▼ Založení říma",
+    "id":"Picaso",
     "detail":"Unikl z hořícího města spolu se svým otcem Anchisem a synem Askaniem. Podle Diova příkazu si měl nový domov hledat v Itálii. Po sedmileté dobrodružné plavbě vplul do ústí Tibery a založil tam město Lavinium, které nazval podle své manželky Lavinie, dcery místního krále Latina. Aeneův syn",
     "url":"https://www.google.com/search?q=Unikl+z+ho%C5%99%C3%ADc%C3%ADho+m%C4%9Bsta+spolu+se+sv%C3%BDm+otcem+Anchisem+a+synem+Askaniem.+Podle+Diova+p%C5%99%C3%ADkazu+si+m%C4%9Bl+nov%C3%BD+domov+hledat+v+It%C3%A1lii.+Po+sedmilet%C3%A9+dobrodru%C5%BEn%C3%A9+plavb%C4%9B+vplul+do+%C3%BAst%C3%AD+Tibery+a+zalo%C5%BEil+tam+m%C4%9Bsto+Lavinium%2C+kter%C3%A9+nazval+podle+sv%C3%A9+man%C5%BEelky+Lavinie%2C+dcery+m%C3%ADstn%C3%ADho+kr%C3%A1le+Latina.+Aene%C5%AFv+syn&rlz=1C1AVFC_enCZ941CZ941&oq=Unikl+z+ho%C5%99%C3%ADc%C3%ADho+m%C4%9Bsta+spolu+se+sv%C3%BDm+otcem+Anchisem+a+synem+Askaniem.+Podle+Diova+p%C5%99%C3%ADkazu+si+m%C4%9Bl+nov%C3%BD+domov+hledat+v+It%C3%A1lii.+Po+sedmilet%C3%A9+dobrodru%C5%BEn%C3%A9+plavb%C4%9B+vplul+do+%C3%BAst%C3%AD+Tibery+a+zalo%C5%BEil+tam+m%C4%9Bsto+Lavinium%2C+kter%C3%A9+nazval+podle+sv%C3%A9+man%C5%BEelky+Lavinie%2C+dcery+m%C3%ADstn%C3%ADho+kr%C3%A1le+Latina.+Aene%C5%AFv+syn&aqs=chrome..69i57.10119j0j7&sourceid=chrome&ie=UTF-8"
 },
 {
     "date":"997",
-    "name":"▼ Založení říma",
+    "id":"Mussolini",
     "detail":"Unikl z hořícího města spolu se svým otcem Anchisem a synem Askaniem. Podle Diova příkazu si měl nový domov hledat v Itálii. Po sedmileté dobrodružné plavbě vplul do ústí Tibery a založil tam město Lavinium, které nazval podle své manželky Lavinie, dcery místního krále Latina. Aeneův syn",
     "url":"https://www.google.com/search?q=Unikl+z+ho%C5%99%C3%ADc%C3%ADho+m%C4%9Bsta+spolu+se+sv%C3%BDm+otcem+Anchisem+a+synem+Askaniem.+Podle+Diova+p%C5%99%C3%ADkazu+si+m%C4%9Bl+nov%C3%BD+domov+hledat+v+It%C3%A1lii.+Po+sedmilet%C3%A9+dobrodru%C5%BEn%C3%A9+plavb%C4%9B+vplul+do+%C3%BAst%C3%AD+Tibery+a+zalo%C5%BEil+tam+m%C4%9Bsto+Lavinium%2C+kter%C3%A9+nazval+podle+sv%C3%A9+man%C5%BEelky+Lavinie%2C+dcery+m%C3%ADstn%C3%ADho+kr%C3%A1le+Latina.+Aene%C5%AFv+syn&rlz=1C1AVFC_enCZ941CZ941&oq=Unikl+z+ho%C5%99%C3%ADc%C3%ADho+m%C4%9Bsta+spolu+se+sv%C3%BDm+otcem+Anchisem+a+synem+Askaniem.+Podle+Diova+p%C5%99%C3%ADkazu+si+m%C4%9Bl+nov%C3%BD+domov+hledat+v+It%C3%A1lii.+Po+sedmilet%C3%A9+dobrodru%C5%BEn%C3%A9+plavb%C4%9B+vplul+do+%C3%BAst%C3%AD+Tibery+a+zalo%C5%BEil+tam+m%C4%9Bsto+Lavinium%2C+kter%C3%A9+nazval+podle+sv%C3%A9+man%C5%BEelky+Lavinie%2C+dcery+m%C3%ADstn%C3%ADho+kr%C3%A1le+Latina.+Aene%C5%AFv+syn&aqs=chrome..69i57.10119j0j7&sourceid=chrome&ie=UTF-8"
 },
 {
     "date":"998",
-    "name":"▼ Založení říma",
+    "id":"Král Franz",
     "detail":"Unikl z hořícího města spolu se svým otcem Anchisem a synem Askaniem. Podle Diova příkazu si měl nový domov hledat v Itálii. Po sedmileté dobrodružné plavbě vplul do ústí Tibery a založil tam město Lavinium, které nazval podle své manželky Lavinie, dcery místního krále Latina. Aeneův syn",
     "url":"https://www.google.com/search?q=Unikl+z+ho%C5%99%C3%ADc%C3%ADho+m%C4%9Bsta+spolu+se+sv%C3%BDm+otcem+Anchisem+a+synem+Askaniem.+Podle+Diova+p%C5%99%C3%ADkazu+si+m%C4%9Bl+nov%C3%BD+domov+hledat+v+It%C3%A1lii.+Po+sedmilet%C3%A9+dobrodru%C5%BEn%C3%A9+plavb%C4%9B+vplul+do+%C3%BAst%C3%AD+Tibery+a+zalo%C5%BEil+tam+m%C4%9Bsto+Lavinium%2C+kter%C3%A9+nazval+podle+sv%C3%A9+man%C5%BEelky+Lavinie%2C+dcery+m%C3%ADstn%C3%ADho+kr%C3%A1le+Latina.+Aene%C5%AFv+syn&rlz=1C1AVFC_enCZ941CZ941&oq=Unikl+z+ho%C5%99%C3%ADc%C3%ADho+m%C4%9Bsta+spolu+se+sv%C3%BDm+otcem+Anchisem+a+synem+Askaniem.+Podle+Diova+p%C5%99%C3%ADkazu+si+m%C4%9Bl+nov%C3%BD+domov+hledat+v+It%C3%A1lii.+Po+sedmilet%C3%A9+dobrodru%C5%BEn%C3%A9+plavb%C4%9B+vplul+do+%C3%BAst%C3%AD+Tibery+a+zalo%C5%BEil+tam+m%C4%9Bsto+Lavinium%2C+kter%C3%A9+nazval+podle+sv%C3%A9+man%C5%BEelky+Lavinie%2C+dcery+m%C3%ADstn%C3%ADho+kr%C3%A1le+Latina.+Aene%C5%AFv+syn&aqs=chrome..69i57.10119j0j7&sourceid=chrome&ie=UTF-8"
 },
 {
     "date":"999",
-    "name":"▼ Založení říma",
+    "id":"Ice Cube",
     "detail":"Unikl z hořícího města spolu se svým otcem Anchisem a synem Askaniem. Podle Diova příkazu si měl nový domov hledat v Itálii. Po sedmileté dobrodružné plavbě vplul do ústí Tibery a založil tam město Lavinium, které nazval podle své manželky Lavinie, dcery místního krále Latina. Aeneův syn",
     "url":"https://www.google.com/search?q=Unikl+z+ho%C5%99%C3%ADc%C3%ADho+m%C4%9Bsta+spolu+se+sv%C3%BDm+otcem+Anchisem+a+synem+Askaniem.+Podle+Diova+p%C5%99%C3%ADkazu+si+m%C4%9Bl+nov%C3%BD+domov+hledat+v+It%C3%A1lii.+Po+sedmilet%C3%A9+dobrodru%C5%BEn%C3%A9+plavb%C4%9B+vplul+do+%C3%BAst%C3%AD+Tibery+a+zalo%C5%BEil+tam+m%C4%9Bsto+Lavinium%2C+kter%C3%A9+nazval+podle+sv%C3%A9+man%C5%BEelky+Lavinie%2C+dcery+m%C3%ADstn%C3%ADho+kr%C3%A1le+Latina.+Aene%C5%AFv+syn&rlz=1C1AVFC_enCZ941CZ941&oq=Unikl+z+ho%C5%99%C3%ADc%C3%ADho+m%C4%9Bsta+spolu+se+sv%C3%BDm+otcem+Anchisem+a+synem+Askaniem.+Podle+Diova+p%C5%99%C3%ADkazu+si+m%C4%9Bl+nov%C3%BD+domov+hledat+v+It%C3%A1lii.+Po+sedmilet%C3%A9+dobrodru%C5%BEn%C3%A9+plavb%C4%9B+vplul+do+%C3%BAst%C3%AD+Tibery+a+zalo%C5%BEil+tam+m%C4%9Bsto+Lavinium%2C+kter%C3%A9+nazval+podle+sv%C3%A9+man%C5%BEelky+Lavinie%2C+dcery+m%C3%ADstn%C3%ADho+kr%C3%A1le+Latina.+Aene%C5%AFv+syn&aqs=chrome..69i57.10119j0j7&sourceid=chrome&ie=UTF-8"
 }
@@ -68,7 +68,28 @@ $(document).ready(function(){
         //$("#pT1").fadeIn(1000);
         $(".jmena tr").removeClass(act);
         $(this).addClass(act);
-        
+        let id = $(this).attr('id');
+        let person = persons.find(item => {return item.id == id});
+        $("#personsInfo").html(`
+    <table class="table table-inverse table-bordered" id="personsInfoFunction">
+        <thead class="thead-inverse">
+            <tr>
+                <th class="person-date">${person.date}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h4 class="person-name">${person.id}</h4>
+                    <p class="person-detail">${person.detail}</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Odkaz:<a href="${person.url}" target="_new" > ${person.url}</a> hustý odkaz</a></td>
+            </tr>
+        </tbody>
+    </table>          
+        `);
     });
     $(".jmena tr").on("mouseover", function(){
             $(this).addClass("bg-success");
@@ -77,7 +98,6 @@ $(document).ready(function(){
     $(".jmena tr").on("mouseout", function(){
         $(this).removeClass("bg-success");
         $(this).css("color", "black");
-        console.log(this);
     });
 });
 
@@ -92,25 +112,15 @@ $(document).ready(function(){
     </tr>`);
 });
 
-/* Po načtení stránky se skryjí všechny detaily událostí */
 $(".event-detail").hide();
-
-/* Při najetí kurzoru myši na ikonu nebo odkaz dojde k následujícím akcím: */
 $(".event-name i, .event-name a").on("mouseover", function(){
-    /* Ze všech řádků tabulky se odstraní dvě uvedené třídy */
     $(".udalosti tbody tr").removeClass("bg-secondary text-white");
-    /* Tyto dvě třídy sepřidají jen rodičovskému řádku (.parents("tr")) toho (this) prvku, na který zrovna ukázala myš */
     $(this).parents("tr").addClass("bg-secondary text-white");
-    /* Nejprve zajistíme skrytí všech detailů událostí */
     $(".event-detail").hide();
-    /* Poté ukážeme pouze ten detail, který následuje po prvku, na který zrovna ukázala myš */
-    /* Zde je použito tzv. traverzování - metodou parent() nejprve "traverzujeme" na rodiče aktivního prvku (odstavec), 
-       poté metodou next() vybereme nejbližšího následujícího sourozence (odstavec s detailem) */
-    /* Zároveň zde, ale i na jiných místech, využíváme tzv. řetězení (chaining), kdy můžeme volat několik metod v řadě */   
     $(this).parent().next().show(500);
 }); 
 
-persons.forEach((persons)=>{
+/*persons.forEach((persons)=>{
     $("#personsInfo").append(`
         <div class="col-4">
             <table class="table jmena">
@@ -154,22 +164,13 @@ persons.forEach((persons)=>{
     </table>          
     </div>
     `);
-});
+});*/
 
-/* Po načtení stránky se skryjí všechny detaily událostí */
 $("#personsInfoFunction").hide();
 
-/* Při najetí kurzoru myši na ikonu nebo odkaz dojde k následujícím akcím: */
 $("#personsInfo tr").on("mouseover", function(){
-    /* Ze všech řádků tabulky se odstraní dvě uvedené třídy */
     $(".udalosti tbody tr").removeClass("bg-secondary text-white");
-    /* Tyto dvě třídy sepřidají jen rodičovskému řádku (.parents("tr")) toho (this) prvku, na který zrovna ukázala myš */
     $(this).parents("tr").addClass("bg-secondary text-white");
-    /* Nejprve zajistíme skrytí všech detailů událostí */
-    $("#personsInfoFunction").hide();
-    /* Poté ukážeme pouze ten detail, který následuje po prvku, na který zrovna ukázala myš */
-    /* Zde je použito tzv. traverzování - metodou parent() nejprve "traverzujeme" na rodiče aktivního prvku (odstavec), 
-       poté metodou next() vybereme nejbližšího následujícího sourozence (odstavec s detailem) */
-    /* Zároveň zde, ale i na jiných místech, využíváme tzv. řetězení (chaining), kdy můžeme volat několik metod v řadě */   
+    $("#personsInfoFunction").hide(); 
     $(this).parent().next().show(500);
 });
