@@ -67,7 +67,18 @@ const persons = [{
 ];
 const act = "active1";
 const udalostiText = ".udalostiText"
-$(document).ready(function(){
+
+$(function(){
+    /*
+    let events = [];
+    fetch('http://localhost:6060/api/events')
+    .then(response => { return response.json() })
+    .then(json => { events = json; })
+    .catch(function (error) {
+       console.error('Chyba: \n', error);
+    });
+    */
+
     //$("#pT1").hide();
     $(".jmena tr").on("click", function(){
         //$("#pT1").fadeIn(1000);
@@ -135,4 +146,4 @@ $("#personsInfo tr").on("mouseover", function(){
     $(this).parents("tr").addClass("bg-secondary text-white");
     $("#personsInfoFunction").hide(); 
     $(this).parent().next().show(500);
-});
+})

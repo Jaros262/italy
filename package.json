@@ -1,11 +1,11 @@
 {
   "name": "italy",
   "version": "1.0.0",
-  "description": "\"#italy\"",
+  "description": "rocnikovy projekt",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Jaros262/italy/issues"
   },
-  "homepage": "https://github.com/Jaros262/italy#readme"
+  "homepage": "https://github.com/Jaros262/italy#readme",
+  "dependencies": {
+    "all": "0.0.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "upper-case": "^2.0.2"
+  }
 }
