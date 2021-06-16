@@ -150,7 +150,7 @@ let town = [{
 $(document).ready(function(){
     $(".land").on("mouseover", function(){
         if($("#kraje:checked").val()) {
-            $(this).css("fill", "red"); 
+            $(this).css("fill", "rgb(53, 189, 53)"); 
 
             /*$(this).popover({
             'trigger':'click',
@@ -172,8 +172,8 @@ $(document).ready(function(){
             let id = $(this).attr('id');
             let towns = town.find(item => {return item.id == id});
             $("#info").html(`
-            <div class="col-12">
-                <h2 class="bg-primary">${towns.city} 
+            <div class="col-12 nadpis">
+                <h2>${towns.city} 
                     <small class="text-small">${towns.peoples} obv.</small>
                 </h2>
             </div>
