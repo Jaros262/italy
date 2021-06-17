@@ -35,7 +35,7 @@ app.get("/api/events", (req, res) => {
   .catch(err => res.send('Soubor nebylo možné načíst', err));       
 });
 
-app.get("/api/events/:index", (req, res) => {
+/*app.get("/api/events/:index", (req, res) => {
   readJSON('data/events.json')
   .then(data => {
       res.send(data[req.params.index])
@@ -71,7 +71,7 @@ app.get("/api/events/search", (req, res) => {
       res.send(result);
   })
   .catch(err => res.send('Soubor nebylo možné načíst', err));       
-});
+});*/
 
 app.get("/api/persons", (req, res) => {
   readJSON('data/persons.json')
