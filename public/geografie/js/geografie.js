@@ -2,7 +2,7 @@ $(function(){
 
     //in progress
     let town = [];
-    fetch('http://localhost:6060/api/town')
+    fetch('https://agile-peak-84733.herokuapp.com//api/town')
     .then(response => { return response.json() })
     .then(json => { town = json; })
     .catch(function (error) {
