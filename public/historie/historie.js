@@ -34,7 +34,7 @@ const udalostiText = ".udalostiText"
 
 $(function(){
     let persons = [];
-    fetch('http://localhost:6060/api/persons')
+    fetch('https://agile-peak-84733.herokuapp.com/api/persons')
     .then(response => { return response.json() })
     .then(json => { persons = json; })
     .catch(function (error) {
