@@ -1,5 +1,4 @@
 $(function(){
-
     //in progress
     let town = [];
     fetch('https://agile-peak-84733.herokuapp.com/api/town')
@@ -9,13 +8,13 @@ $(function(){
        console.error('Chyba: \n', error);
     });
 
-    /*let unesco = [];
-    fetch('https://evening-reaches-42891.herokuapp.com/api/unesco')
+    let unesco = [];
+    fetch('https://agile-peak-84733.herokuapp.com/api/unesco')
     .then(response => { return response.json() })
     .then(json => { unesco = json; })
     .catch(function (error) {
        console.error('Chyba: \n', error);
-    });*/
+    });
     //in progress
 
     $(".land").on("mouseover", function(){
@@ -38,6 +37,7 @@ $(function(){
     $("#mapa ellipse").on("click", function(){
         if($("#mesta:checked").val()) {
             $(".city").css("fill", "gray");
+            $("#mapa rect").css('fill','#fff');
             $(this).css("fill", "green");
             let id = $(this).attr('id');
             let towns = town.find(item => {return item.id == id});
@@ -59,6 +59,36 @@ $(function(){
             
         }
     });
+    $("#mesta").on("click", function(){
+        if(!$("#mesta:checked").val()){
+            $(".city").css("fill", "gray");
+        }
+    });
+    $("#mapa rect").hide();
+    $("#pamatky").on('change', function(){
+        $("#mapa rect").toggle(500);
+    });
+    $("#mapa rect").on('click', function(){
+        let id = $(this).attr('id');
+        $("#mapa rect").css('fill','#fff');
+        $(".city").css("fill", "gray");
+        $(this).css('fill','green');
+        let pamatka = unesco.find(item => {return item.id == id});
+        $('#info').html(`
+            <div class="col-12 nadpis">
+                <h2>${pamatka.name} 
+                    <small class="text-small">${pamatka.peoples} obv.</small>
+                </h2>
+            </div>
+            <div class="col-4">
+                <img src="img/${pamatka.sign}" class="img-fluid fotoPamatka">
+            </div>
+            <div class="col-8">
+                ${pamatka.text}
+            </div>
+        `);
+        
+    });   
     $("#mesta").on("click", function(){
         if(!$("#mesta:checked").val()){
             $(".city").css("fill", "gray");

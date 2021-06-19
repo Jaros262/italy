@@ -85,5 +85,11 @@ app.get("/api/town", (req, res) => {
   .catch(err => res.send('Soubor nebylo možné načíst', err));       
 });
 
+app.get("/api/unesco", (req, res) => {
+  readJSON('data/unesco.json')
+  .then(data => res.send(data))
+  .catch(err => res.send('Soubor nebylo možné načíst', err));       
+});
+
 const PORT = process.env.PORT || 6060;
 server.listen(PORT,() => console.log(`Server běží na portu ${PORT}`));
