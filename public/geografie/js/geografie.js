@@ -72,7 +72,7 @@ $(function(){
         let id = $(this).attr('id');
         $("#mapa rect").css('fill','#fff');
         $(".city").css("fill", "gray");
-        $(this).css('fill','green');
+        $(this).css('fill','lightgreen');
         let pamatka = unesco.find(item => {return item.id == id});
         $('#info').html(`
             <div class="col-12 nadpis">
